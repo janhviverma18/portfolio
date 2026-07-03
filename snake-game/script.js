@@ -67,3 +67,18 @@ snake.unshift(newHead);
 }
 
 const game=setInterval(draw,120);
+document.getElementById("up").addEventListener("click", () => {
+  if (direction !== "DOWN") direction = "UP";
+});
+
+document.getElementById("down").addEventListener("click", () => {
+  if (direction !== "UP") direction = "DOWN";
+});
+
+document.getElementById("left").addEventListener("click", () => {
+  if (direction !== "RIGHT") direction = "LEFT";
+});
+
+document.getElementById("right").addEventListener("click", () => {
+  if (direction !== "LEFT") direction = "RIGHT";
+});
