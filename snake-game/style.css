@@ -26,3 +26,13 @@ canvas{
     background: #00d4ff;
     color: white;
 }
+#restart{
+    margin-top:15px;
+    padding:10px 20px;
+    font-size:18px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    background:#ff9800;
+    color:white;
+}
